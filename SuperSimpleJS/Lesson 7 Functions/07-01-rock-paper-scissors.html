@@ -8,7 +8,6 @@
 
 </head>
 <body>
-
   <p>Rock Paper Scissors</p>
   <button onclick="
   playGame('rock');
@@ -23,8 +22,10 @@
 ">Scissors</button>
 
 <script>
+   //this function here will send us down all the way to the code
   function playGame(playerMove) {
-    const computerMove = pickComputerMove(); //this function here will send us down all the way to the code
+    const computerMove = pickComputerMove();
+  
 
 
 
@@ -60,12 +61,11 @@
       }
     }
 
-    alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
-  }
+    alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);}
 
-//declaring the variable outside the function scope so that we can use it easily
+    //declaring the variable outside the function scope so that we can use it easily
 
-  function pickComputerMove() {
+    function pickComputerMove() {
     const randomNumber = Math.random();
 
     let computerMove = '';

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+
+
+</head>
+<body>
+
+<script>
+ 
+ /*function function1(){
+    console.log('hello');
+    console.log(2+2);
+ }
+    function1();
+*/
+
+/*
+    function calculateTax() {
+    console.log(1000 * 0.1);
+    }
+
+    calculateTax();
+ */   
+    //how to make the above code work with any number?
+
+    function calculateTax(cost, taxPercent = 0.1){
+        
+        console.log(cost * taxPercent);
+        
+    }
+    //saving value inside the parameter
+    calculateTax(1000, 0.1);
+    calculateTax(5000);
+
+    //1
+    let a = 5;
+    let b = 5;
+    console.log(a+b);
+
+    //2
+    function sum1(){
+    let a = 5;
+    let b =10;
+    console.log(a+b);
+}            
+
+sum1()
+
+
+//3
+function sum2(){
+    let a = 10;
+    let b =10;
+    return a+b;
+}            
+
+console.log(sum2());
+
+
+//storing function in a variable 
+var sum3 = function(){
+    var a = 15;
+    var b =10;
+    return a+b;
+}
+
+console.log(sum3());
+
+var sum3 = function(){
+    var a = 15;
+    var b =10;
+    return a+b;
+}
+
+console.log(sum3());
+
+//arrow function
+
+let sum4 = () => {
+    let a = 10;
+    let b = 20;
+    return a+b;
+}
+
+console.log(sum4());
+
+//another example of arrow => function for one parameter/input
+
+let sum5 = (a,b) => a + b 
+
+
+console.log(sum5(15,20));
+
+//arrow function using return
+
+let sumThreeNumbers = (num1, num2, num3) => {
+    return num1 + num2 + num3;
+}
+
+let ans = sumThreeNumbers(2,3,4);
+console.log(ans);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        const product = {
+            //here name and price are referred to as "property" and using properies we can access specific values in the object
+            name : 'socks',
+            price : 1090
+        };
+        console.log(product);
+        console.log(product.name);
+
+        product.name = 'cotton socks'
+        console.log(product);
+
+        product.newProduct = true;
+        console.log(product);
+
+        delete product.newProduct;
+        console.log(product)
+
+    </script>
+</body>
+</html>

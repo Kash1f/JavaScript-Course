@@ -79,3 +79,14 @@ let ans = arrIncludes.includes(4);
 
 console.log(arrIncludes);
 console.log(ans);
+
+//loops and arrays
+
+let arrLoops = []
+
+for(let i = 0; i < 10; ++i){
+    // arrLoops[i] = "Hello"
+    arrLoops.push("Hi")
+}
+
+console.log(arrLoops);

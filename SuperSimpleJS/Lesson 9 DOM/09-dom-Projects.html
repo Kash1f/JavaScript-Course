@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Projects</title>
 </head>
+
 <body>
 
-  <p>Youtube Subscribe Button</p>
-  <button onclick="subscribe()"
-  class="js-subscribe-button">Subscribe</button>
+    <p>Youtube Subscribe Button</p>
+    <button onclick="subscribe()" class="js-subscribe-button">Subscribe</button>
 
 
-<script>
+    <script>
 
-    /*
-    Steps that we need to make this project:
-    1. If the text is "Subscribe" we will change it to "Subscribed"
-    2. Otherwise, change it back we will change "Subscribe"
-    */
+        /*
+        Steps that we need to make this project:
+        1. If the text is "Subscribe" we will change it to "Subscribed"
+        2. Otherwise, change it back we will change "Subscribe"
+        */
 
-    function subscribe(){
+        function subscribe() {
 
-    const buttonElement = document.querySelector('.js-subscribe-button');
+            const buttonElement = document.querySelector('.js-subscribe-button');
 
-if(buttonElement.innerHTML === 'Subscribe'){
-    buttonElement.innerHTML = 'Subscribed';
-} else {
-    buttonElement.innerHTML = 'Subscribe'
-}
-    }
+            if (buttonElement.innerHTML === 'Subscribe') {
+                buttonElement.innerHTML = 'Subscribed';
+            } else {
+                buttonElement.innerHTML = 'Subscribe'
+            }
+        }
 
-</script>
+    </script>
 </body>
+
 </html>

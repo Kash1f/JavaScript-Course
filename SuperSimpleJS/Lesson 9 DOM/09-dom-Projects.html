@@ -10,7 +10,8 @@
 <body>
 
     <p>Youtube Subscribe Button</p>
-    <button onclick="subscribe()" class="js-subscribe-button">Subscribe</button>
+    <button onclick="subscribe()" 
+    class="js-subscribe-button">Subscribe</button>  <!-- giving class to this button so that it can be easily accessed in javascript by using document.querySelector -->
 
 
     <script>
@@ -23,8 +24,10 @@
 
         function subscribe() {
 
+                //variable to store the document.querySelector object to target the html class
             const buttonElement = document.querySelector('.js-subscribe-button');
 
+                //using innerHTML/innerText to change the HTML accordingly through Js.
             if (buttonElement.innerHTML === 'Subscribe') {
                 buttonElement.innerHTML = 'Subscribed';
             } else {

@@ -77,9 +77,11 @@
         score.losses += 1;
     }
         else if(result === 'You lose.'){
-        score.losses += 1;
-        }add
-  alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
+        score.ties += 1;
+        }
+
+  alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
+  Wins:${score.wins}, Losses:${score.losses}, Ties:${score.ties}`); //multi-line strings
   }
 
 //declaring the variable outside the function scope so that we can use it easily

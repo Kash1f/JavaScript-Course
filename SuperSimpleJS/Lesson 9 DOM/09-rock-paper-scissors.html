@@ -69,7 +69,6 @@
         result = 'You win.';
       }
     }
-
       if (result === 'You win.') {
         score.wins +=1;
       } else if (result === 'You lose.'){
@@ -82,17 +81,15 @@
         score.wins += 1;
       } else if(result === 'You lose.'){
         score.losses += 1;
-    }
-        else if(result === 'You lose.'){
+    } else if(result === 'You lose.'){
         score.ties += 1;
-        }
+    }
 
-  alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
+alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
 Wins:${score.wins}, Losses:${score.losses}, Ties:${score.ties}`); //multi-line strings
   }
 
 //declaring the variable outside the function scope so that we can use it easily
-
   function pickComputerMove() {
     const randomNumber = Math.random();
 

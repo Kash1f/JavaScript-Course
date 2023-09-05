@@ -29,9 +29,9 @@ document.getElementById("heading").addEventListener("click", function (e) {
 
     variable = e.target.id;
     variable = e.offsetX;
-    // variable = e.clientX;
-    // variable = e.clientY;
-
+    variable = e.offsetY;
+    variable = e.clientX;
+    variable = e.clientY;
 
     console.log(variable);
 

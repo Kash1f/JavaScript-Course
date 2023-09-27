@@ -128,11 +128,25 @@
   /*This is similar to an if statement. The first value is like the condition, if its truthy then it will run the code after the question mark ? and if its falsy then it will run the code after the semi colon :. So, the ? can be considered as an if statement and the : can be considered as an else statement.
   
   The advantage of a ternary operator over if-else statements is that the ternary operators can be stored in a variable. 
+
+  let result;
+
+  if(condition){
+    result = 'truthy';
+  } else {
+    result = 'falsy';
+  }
   
   
   */
 
 
+    let welcome = (name, age) => {
+      return `Hello and Welcome ${name} -${age}`
+    }
+
+    result = (welcome("Kashif", 22));
+    console.log(result);
 </script>
 </body>
 </html>

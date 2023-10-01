@@ -8,6 +8,6 @@ const myObj = {
 }
 
 //adding new value to the object
-myObj.height = 5.11;
+myObj.height = 6.2;
 
 console.log(myObj);

@@ -1,7 +1,7 @@
 //Objects
 
 const myObj = {
-    firstName : "Kashif",
+    firstName : "Shayyan",
     lastName : "Ahmed",
     age: 22,
     gender: "Male"

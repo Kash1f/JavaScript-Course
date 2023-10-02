@@ -31,8 +31,18 @@
 
 //for of loop
 
+// const fruits = ["mango", "apple", "grapes"]
+
+// for(let fruit of fruits){    //here each value of the above array will be stored in the
+//                             //fruit variable and will be prited one by one
+//     console.log(fruit);
+// }
+
+
+//for in loop
+
 const fruits = ["mango", "apple", "grapes"]
 
-for(let fruit of fruits){
-    console.log(fruit);
+for(let index in fruits){
+    console.log(index);
 }

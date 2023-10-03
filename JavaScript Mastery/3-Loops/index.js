@@ -64,3 +64,10 @@ const  myLuckyNumbers = [1,2,3,4,5,6,7,8]
 for(let number of myLuckyNumbers){
     console.log("my numbers -> " + number);
 }
+
+
+const myName = "kashif";
+
+for(let char of myName){
+    console.log("characters of my name -> " + char);
+}

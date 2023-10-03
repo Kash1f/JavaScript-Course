@@ -48,7 +48,8 @@ for (let grocery of groceryList){
 
 const fruits = ["mango", "apple", "grapes"]
 
-for(let index in fruits){
+for(let index in fruits){     //here the variable index(can be named anything) is declared
+                              //to get the index number of the array using for-in loop
     console.log(index);
 }
 
@@ -56,4 +57,10 @@ const groceryLists = ["rice", "soap", "wheat", "bread"]
 
 for (let grocery in groceryLists){
     console.log(grocery);
+}
+
+const  myLuckyNumbers = [1,2,3,4,5,6,7,8]
+
+for(let number of myLuckyNumbers){
+    console.log("my numbers -> " + number);
 }

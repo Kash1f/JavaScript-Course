@@ -46,3 +46,9 @@ const fruits = ["mango", "apple", "grapes"]
 for(let index in fruits){
     console.log(index);
 }
+
+const groceryList = ["rice", "soap", "wheat", "bread"]
+
+for (let grocery of groceryList){
+    console.log(grocery);
+}

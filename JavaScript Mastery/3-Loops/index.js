@@ -31,10 +31,11 @@
 
 //for of loop
 
+
 const fruitss = ["mango", "apple", "grapes"]
 
 for(let fruit of fruitss){    //here each value of the above array will be stored in the
-                            //fruit variable and will be prited one by one
+                            //fruit variable and will be printed one by one
     console.log(fruit);
 }
 
@@ -69,5 +70,5 @@ for(let number of myLuckyNumbers){
 const myName = "kashif";
 
 for(let char of myName){
-    console.log("characters of my name -> " + char);
+    console.log("characters of my name -> " + char);  //this will print every character
 }

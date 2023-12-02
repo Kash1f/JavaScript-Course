@@ -24,7 +24,28 @@ console.log(squareNumbers);
 
 //rest and spread operator
 
+//spread operator->
+
+//spread means element ki sari values ko specific jagah pe bikher dena
+
+
+
 var a = [1,2,3,4,5,6,7,8,88,99,100];
-var b = a;
+
+var b = [...a]
 
 console.log(b);
+
+//spread use hota hai copy karne k liye ya phir us location pe kisi aur ki values bikherne k liye
+
+//rest use hota hai jab aapko bache huai values aik variable me daalne hon
+
+//rest operator->
+
+function abcd(a,b,c,...d){
+    console.log(a,b,c, d); //sari bachi hui values d me ajaingi
+}
+
+abcd(1,2,3,4,5,6,7,8)
+
+

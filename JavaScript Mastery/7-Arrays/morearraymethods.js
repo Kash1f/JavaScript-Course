@@ -20,3 +20,11 @@ const squareNumbers = numbers.map(square);
 console.log(squareNumbers);
 
   //map function that will give new array as an output. square variable will be passed in map function since it squares the number and the map function will give the required output when the variable in which map is stored will be printed 
+
+
+//rest and spread operator
+
+var a = [1,2,3,4,5,6,7,8,88,99,100];
+var b = a;
+
+console.log(b);

@@ -34,6 +34,9 @@
     ties : 0
   };
 
+    localStorage.getItem
+
+
   function playGame(playerMove) {
   const computerMove = pickComputerMove(); 
   //this function here will send us down all the way to the code
@@ -87,7 +90,7 @@
         score.ties += 1;
         }
 
-        localStorage.setItem()
+        localStorage.setItem('score', 'object')
 
   alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
 Wins:${score.wins}, Losses:${score.losses}, Ties:${score.ties}`); //multi-line strings

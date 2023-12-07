@@ -29,6 +29,7 @@
 
     let result = '';
 
+    //playerMove scissors hua to ye code chalega
     if (playerMove === 'scissors') {
       if (computerMove === 'rock') {
         result = 'You lose.';
@@ -38,6 +39,7 @@
         result = 'Tie.';
       }
 
+      //playerMove paper hua to ye code chalega
     } else if (playerMove === 'paper') {
       if (computerMove === 'rock') {
         result = 'You win.';
@@ -47,6 +49,7 @@
         result = 'You lose.';
       }
       
+      //aur agar playerMove rock hua to ye code chalega
     } else if (playerMove === 'rock') {
       if (computerMove === 'rock') {
         result = 'Tie.';

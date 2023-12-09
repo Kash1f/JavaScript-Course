@@ -7,11 +7,32 @@
 </head>
 <body>
     <script>
+        
         const myArray = [1,2,3,4]
         console.log(myArray);
         console.log(myArray[1]);
 
         myArray[1] = 10;
+        console.log(myArray);
+
+        ///////////////////////////////
+
+        [1, "name", true, {age: 20}, [1, 2]]
+
+        console.log(typeof[1,2]);  //array is a special type of object
+
+        //If we want to check that if something is specifically an array then:
+        console.log(Array.isArray([1,2]))
+
+        //.length
+        console.log(myArray.length);
+
+        //.push()
+        myArray.push(5);
+        console.log(myArray);
+
+        //.splice()
+        myArray.splice(0,1);
         console.log(myArray);
     </script>
 </body>

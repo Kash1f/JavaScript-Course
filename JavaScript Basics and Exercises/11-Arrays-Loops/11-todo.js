@@ -1,6 +1,6 @@
 
 //creating an empty array
-const todoList = []
+const todoList = [];
 
 
 //Reminder: document.querySelector will get an  element with classname "js-name-input" i.e the input element in our html and puts it in our js. 
@@ -13,12 +13,17 @@ function addTodo() {
 
     const inputElement = document.querySelector('.js-name-input')
 
-    //inputElement has the class saved it in which we got via doc.q.S and isay .value k sath use karne se jo bhi value inputElement me hogi wo hum name variable me store kardengy 
+    //inputElement has the class saved it in which we got via doc.q.S and isay .value k sath use karne se jo bhi value inputElement yaani textbox me hogi wo hum name variable me store kardengy 
 
     const name = inputElement.value
 
     //now using push with array variable and passing name into it will make this code push whatever the value will be typed in the input box
-    
+
     todoList.push(name)
     console.log(todoList);
+
+    //value property represents the text in the text box. So to change the text in the text box, simply change the value property
+
+    inputElement.value = ''; //this will make the text in the text box become empty
+
 }

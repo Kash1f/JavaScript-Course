@@ -57,7 +57,7 @@
 
             //For Loop
             
-            for(i = 1; i <= 5, i++){
+            for(i = 1; i <= 5; i++){
                 console.log(i);
             }
 
@@ -67,14 +67,39 @@
 
         Standard loop => for
         Non standard loop => while
-
-        what is a non standard loop?
-
-        Generate random numbers until one that is at least 0.5
-        
+ 
         */
 
-        //example while loop
+        /*
+        Generate random numbers until one that is at least 0.5 */
+
+        let randomNumber = 0;
+
+        //we want to keep running this loop until we get a random number that is at least 0.5
+
+        //so if the randomNumber below is less than 0.5, it will keep generating random numbers until we get a number that is at least 0.5. 
+        
+        while(randomNumber < 0.5){
+            randomNumber = Math.random();
+
+        }
+
+        console.log(randomNumber);
+
+        //random numbers will be generated when they will be at least 0.5
+
+        //this is a non standard loop. It does not really have loop variable that we increase everytime and it also does not have the increment step. 
+
+
+
+            const todoList = [
+                'make dinner',
+                'wash dishes',
+                'play cricket'
+            ]
+
+            for(let index = 0)
+
 
         }
     </script>

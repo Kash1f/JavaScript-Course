@@ -81,12 +81,15 @@
         score.ties +=1;
       }
 
+      //after calculating the result, we will update the score
+
+        //the win, lose and tie should match with the above code
       if(result === 'You win.'){
         score.wins += 1;
       } else if(result === 'You lose.'){
         score.losses += 1;
     }
-        else if(result === 'You lose.'){
+        else if(result === 'Tie.'){
         score.ties += 1;
         }
 

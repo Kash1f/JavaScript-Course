@@ -10,3 +10,8 @@ function abcd(val){
 }
 
 abcd(function())  //abcd is the higher order function here
+
+
+//constructor function
+
+//normal function jisme n

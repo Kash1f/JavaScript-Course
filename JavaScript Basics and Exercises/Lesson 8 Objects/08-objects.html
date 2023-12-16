@@ -34,18 +34,26 @@
             productId: 22,
             ['delivery-time'] : '4 days',
             rating : {
-                starts: 5,
+                stars: 5,
                 count: 90
+            },
+            fun: function func(){
+                console.log("function inside an object");
             }
-
-
         }
 
         console.log(product2);
         console.log(product2.name);
         console.log(product2['name']);
         console.log(product2['delivery-time']); 
+
         console.log(product2.rating);
+        console.log(product2.rating.stars);
+        product2.fun();
+
+        //JSON is used to store data. Also, JSON is used when data is sent between two computers that might use different programming languages.
+
+        
 
 
     

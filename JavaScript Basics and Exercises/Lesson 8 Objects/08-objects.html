@@ -30,13 +30,22 @@
         // Bracket Notation
 
         const product2 = {
-            name : 'kashif',
-            age: 22
+            name : 'shoes',
+            productId: 22,
+            ['delivery-time'] : '4 days',
+            rating : {
+                starts: 5,
+                count: 90
+            }
+
+
         }
 
         console.log(product2);
         console.log(product2.name);
-        console.log(product2['name']); 
+        console.log(product2['name']);
+        console.log(product2['delivery-time']); 
+        console.log(product2.rating);
 
 
     

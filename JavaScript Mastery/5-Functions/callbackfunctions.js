@@ -2,6 +2,12 @@
 
 //callbacks with synchronous behaviour
 
-const myFunc(){
+function myFunc(){
     console.log("This is a function");
+}
+
+//callbacks with async behaviour
+
+function getTwoNumbersandAdd(){
+
 }

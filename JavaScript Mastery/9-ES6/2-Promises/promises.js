@@ -2,14 +2,20 @@
 
 //Promises Problem #1
 
-const ans = new Promise((resolve, reject)=>  {
-    const n = Math.floor(Math.random()*10);
+// const ans = new Promise((resolve, reject)=>  {
+//     const n = Math.floor(Math.random()*10);
 
-    if (n < 5) {
-        return resolve();
-    }
-    else {
-        return reject();
-    }    
-})
+//     if (n < 5) {
+//         return resolve();
+//     }
+//     else {
+//         return reject();
+//     }    
+// })
+
+//Promises Problem #2
+
+
+
+
 

@@ -21,6 +21,10 @@ friedPromise.then((myFriedrice)=>{
     console.log(error);
 })
 
+setTimeout(()=>{
+    console.log("Hello from setTimeout");
+},0)
+
 for (let i = 0; i<=100; i++){
     console.log(Math.random(), i);
 }

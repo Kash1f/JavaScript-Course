@@ -1,6 +1,7 @@
 //AJAX = Asynchronous JavasScript and XML
 
-/*It is a set of web development techniques using many web technologies on the 
+/*
+It is a set of web development techniques using many web technologies on the 
 "client side" to create asynchronous web applications.
 
 With AJAX web apps can send and retreive data from a server asynchronously 
@@ -14,7 +15,10 @@ We have 3 most common ways to create and send request to server
 1. XML HTTPRequest (Old way of doing)
 2. Fetch API (New way of doing)
 3. Axios (Third party library)
-
 */
+
 const xhr = new XMLHttpRequest();
 console.log(xhr);
+//yahan pe humay is xhr object ko use kar k humay server pe http request karni hai, ya to hum server bana sakte hain ya bane banai APIs ko hum use kar sakte hain
+
+//browser by default GET request karta hai

@@ -15,7 +15,9 @@ const friedPromise= new Promise ((resolve,reject)=>{
 //consume
 //how to consume
 friedPromise.then((myFriedrice)=>{
-    console.log("Lets eat", myFriedrice);
+    console.log("Lets eat", myFriedrice
+    
+    );
 })
 .catch((error)=>{
     console.log(error);

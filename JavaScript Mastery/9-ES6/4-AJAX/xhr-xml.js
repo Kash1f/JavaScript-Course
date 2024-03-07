@@ -16,3 +16,5 @@ We have 3 most common ways to create and send request to server
 3. Axios (Third party library)
 
 */
+const xhr = new XMLHttpRequest();
+console.log(xhr);

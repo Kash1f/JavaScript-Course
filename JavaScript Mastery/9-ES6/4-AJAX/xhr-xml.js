@@ -32,7 +32,12 @@ const xhr = new XMLHttpRequest();
 //step1: xhr object pe open method use karna hai
 xhr.open("GET")
 
-xhr.send()''
+//browser is function ko tab call karega jab uski ready state change hogi
+xhr.onreadystatechange = function(){
+    console.log(xhr.readyState);
+}
+
+xhr.send()
 
 
 

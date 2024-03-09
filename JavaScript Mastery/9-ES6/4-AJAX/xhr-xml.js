@@ -17,8 +17,9 @@ We have 3 most common ways to create and send request to server
 3. Axios (Third party library)
 */
 
+const URL = "https://jsonplaceholder.typicode.com/posts"
 const xhr = new XMLHttpRequest();
 console.log(xhr);
 //yahan pe humay is xhr object ko use kar k humay server pe http request karni hai, ya to hum server bana sakte hain ya bane banai APIs ko hum use kar sakte hain
 
-//browser by default GET request karta hai
+//browser by default GET request karta hai, humay response me JSON data milega

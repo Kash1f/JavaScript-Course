@@ -35,6 +35,10 @@ xhr.open("GET")
 //browser is function ko tab call karega jab uski ready state change hogi
 xhr.onreadystatechange = function(){
     console.log(xhr.readyState);
+    if(xhr.readyState === 4){
+        const response = xhr.response;
+        JSON.parse(response)        //JSON to JavaScript Object
+    }
 }
 
 xhr.send()

@@ -30,14 +30,15 @@ const xhr = new XMLHttpRequest();
 // console.log(xhr);
 
 //step1: xhr object pe open method use karna hai
-xhr.open("GET")
+xhr.open("GET",URL)
 
 //browser is function ko tab call karega jab uski ready state change hogi
 xhr.onreadystatechange = function(){
     console.log(xhr.readyState);
     if(xhr.readyState === 4){
-        const response = xhr.response;
-        JSON.parse(response)        //JSON to JavaScript Object
+    const response = xhr.response;
+    const data = JSON.parse(response)  //JSON to JavaScript Object via JSON.parse
+        console.log(data);        
     }
 }
 

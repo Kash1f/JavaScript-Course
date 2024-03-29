@@ -1,3 +1,5 @@
+//Switch-Case Basic Example
+
 let day = 1;
 
 switch (day) {
@@ -27,4 +29,7 @@ switch (day) {
   case 6:
     console.log("Today is Saturday");
     break;
+
+  default:
+    console.log("Enter Valid Week Day");
 }

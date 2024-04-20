@@ -51,3 +51,9 @@ abcd(1,2,3,4,5,6,7,8)
 //rest operator values ko aik jagah pe rakhta hai jab k spread operator values ko spread kardeta hai
 
 
+//REDUCE METHOD
+//It reduces the elements of an arrya to a single value
+
+
+
+

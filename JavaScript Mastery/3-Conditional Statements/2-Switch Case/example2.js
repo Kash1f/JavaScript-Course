@@ -12,5 +12,5 @@ switch (true) {
     break;
 
   default:
-    console.log("Enter the Valid Age");
+    alert("Enter the Valid Age");
 }

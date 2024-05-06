@@ -54,6 +54,14 @@ abcd(1,2,3,4,5,6,7,8)
 //REDUCE METHOD
 //It reduces the elements of an arrya to a single value
 
+//In this example we will create an array of prices as if it was a shopping cart we will sum all of the prices within our cart and return the a total, we'll need an array to work with
+
+const prices = [5, 30, 40, 15, 25, 45];
+
+const total = prices.reduce(); 
+//we do need to pass in a callback to a function, we need to create a function that will sum all of these values
+
+
 
 
 

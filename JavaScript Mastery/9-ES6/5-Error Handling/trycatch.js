@@ -7,7 +7,6 @@ console.log("Hey 1"); //runs
 
 try{
     console.log(hey); //error
-
 }
 catch(err){
 console.log(err)  //prints the error 

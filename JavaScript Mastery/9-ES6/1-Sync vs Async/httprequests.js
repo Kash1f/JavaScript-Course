@@ -12,8 +12,7 @@ request.addEventListener('readystatechange', ()=>{
     console.log(request, request.readyState);
 })
 
-//4. In our code we don't know when this is complete, we don't know how to access that data, so how do we do all that? Well, in our code we can track the progress of a request using an event listener and a specific event called 'readystate' changed. 7:16
-
+//4. In our code we don't know when this is complete, we don't know how to access that data, so how do we do all that? Well, in our code we can track the progress of a request using an event listener and a specific event called 'readystate' changed.
 
 request.open('GET', 'https://jsonplaceholder.typicode.com/todos/');
 request.send();

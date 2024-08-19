@@ -12,7 +12,7 @@ request.addEventListener('readystatechange', ()=>{
     console.log(request, request.readyState);
 })
 
-//4. In our code we don't know when this is complete, we don't know how to access that data, so how do we do all that? Well, in our code we can track the progress of a request using an event listener and a specific event called 'readystate' changed.
+//4. In our code we don't know when this is complete, we don't know how to access that data, so how do we do all that? Well, in our code we can track the progress of a request using an event listener and a specific event called 'readystate' change. So, we attach this to the req object itself. So this event fires every time there's a state change in the req. State change means that the request is going through these different phases of the request and there's four in total. We will console.log the request object every time there is a state change and then request.readyState and that gets us the state that the current request is in.
 
 request.open('GET', 'https://jsonplaceholder.typicode.com/todos/');
 request.send();

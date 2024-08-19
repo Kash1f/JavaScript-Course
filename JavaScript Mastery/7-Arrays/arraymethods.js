@@ -118,6 +118,8 @@ const getAllNames = personsArray.map((singlePerson, index)=>{
 })
 console.log(getAllNames);
 
+//find method
+
 getPersonFromAus = personsArray.find((singlePerson, index)=>{
   return singlePerson.country === 'Australia'
 });

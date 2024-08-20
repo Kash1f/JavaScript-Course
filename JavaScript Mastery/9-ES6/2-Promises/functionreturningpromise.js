@@ -19,6 +19,7 @@ ricePromise()
   .then((myFriedrice) => {
     console.log("Lets eat", myFriedrice);
   })
-  .catch((error) => {
+  .catch(
+    (error) => {
     console.log(error);
   });

@@ -2,10 +2,24 @@
 //Promise chaining
 
 
+// const myPromise = Promise.resolve(5);
+// Promise.resolve(5).then(value=>{
+//     console.log(value);
+// })
 
+//then() method hamesha promise return karta hai
 
-const myPromise= Promise.resolve(5);
-myPromise.then(value=>{
+function myPromise(){
+    return new Promise((resolve, reject)=>{
+        resolve("foo")
+    })
+}
+
+myPromise().then((value)=>{
+    console.log(value);
+    value += "bar"
+    return value;
+}).then((value)=>{
     console.log(value);
     
 })

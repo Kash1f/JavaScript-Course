@@ -21,5 +21,9 @@ myPromise().then((value)=>{
     return value;
 }).then((value)=>{
     console.log(value);
+    value += "baaz";
+    return value;
+}).then((value)=>{
+    console.log(value);
     
 })

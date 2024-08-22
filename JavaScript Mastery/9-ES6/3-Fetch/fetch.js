@@ -24,20 +24,24 @@
 
 //Fetch Example with POST Method
 
+//POST request will be done at this server
+
 const URL = "https://jsonplaceholder.typicode.com/posts";
 
 fetch(URL, {
   method: "POST",
-  body: JSON.stringify({
+  body: JSON.stringify({                //JSON.stringify will convert this object into JSON data, we are sending data in JSON
     title: "foo",
     body: "bar",
     userId: 1,
   }),
+
+
   headers: {
     "Content-type": "application/json; charset=UTF-8",
-  },
-})
-  .then((response) => {
+  }, })
+ // The server will process this data, and if the request is successful, it will return a response, which you can handle in the .then() block.  
+  .then((response) => {                  
     if (response.ok) {
       return response.json();
     } else {

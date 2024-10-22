@@ -37,7 +37,6 @@ const output = a.reduce(function(acc, curr){
 
 console.log(output);
 
-
 //forEach method
 
 const numbers3 = [1, 2, 3, 4, 5, 6];

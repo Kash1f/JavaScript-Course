@@ -20,8 +20,8 @@ myFunc(myFunc2);
 
 
 
-//callbacks with async behaviour
+// //callbacks with async behaviour
 
-function getTwoNumbersandAdd(){
+// function getTwoNumbersandAdd(){
 
-}
+// }

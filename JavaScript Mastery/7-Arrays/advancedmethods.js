@@ -27,6 +27,7 @@ console.log(evenNumbers); // Output: [2, 4, 6]
 
 
 //reduce method
+
 const a = [5,1,3,2,6];
 
 const output = a.reduce(function(acc, curr){

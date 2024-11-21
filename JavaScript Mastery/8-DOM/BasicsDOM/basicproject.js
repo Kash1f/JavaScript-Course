@@ -19,3 +19,11 @@ button.addEventListener("click", function(){
     flag = 0;
 }
 });
+
+var bulb = document.querySelector("#bulb");
+var button = document.querySelector("button");
+
+button.addEventListener("click", function(){
+    bulb.style.backgroundColor = 
+    bulb.style.backgroundColor === "yellow" ? "transparent" : "yellow";
+});

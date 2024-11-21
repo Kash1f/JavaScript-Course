@@ -5,7 +5,11 @@
 //3. Changing CSS - styling in CSS file can be changed while writing JS code.
 //4. Event Listeners - 
 
+//1. Selection of an element
+document.querySelector("h1");
 
+//2. Changing HTML
+document.querySelector("h1").innerHTML = "Method 1 to change HTML";
 
-var a = document.querySelector("h1");
-a.innerHTML = "Changed by JS";
+var a = document.querySelector("h2");
+a.innerHTML = "Method 2 to change HTML";

@@ -11,6 +11,8 @@ const items = [
     { name: 'watermelon', price: 1000 },
 ]
 
+const items2 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+
 //1. Filter method
 //assume we want to get the items in this list that are less than or equal to 100$, we can use the filter method to filer out everything that's not under a hundred dollars
 
@@ -65,3 +67,19 @@ const hasInexpensiveItems = items.every((item)=>{
 })
 
 console.log(hasInexpensiveItems)
+
+//6. Reduce method
+//reduce method is a bit different than other methods since it performs operations on an array and returns a combination of all those different operations, so if we want to get the total price of all the items in the array, normally this can be done via for loop in which we add each item everytime and at the end of the loop we print out the price. Here, it takes two parameters, an item and a property for what we want to reduce everything into, in our case it'll be the currentTotal
+
+
+const totalPrice = items.reduce((currentTotal, item)=>{
+    return item.price + currentTotal;
+}, 0)
+
+console.log(totalPrice)
+
+//6. Includes method
+//this method is a bit different as well because it doesn't take a callback function, we pass in the item we want to check if it exists in the array, if it does, it returns true, otherwise it returns false
+
+const appleExists = items2.includes(4)
+console.log(appleExists)

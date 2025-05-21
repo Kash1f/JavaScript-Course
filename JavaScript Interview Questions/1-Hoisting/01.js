@@ -18,6 +18,14 @@ let age = 20;
 
 console.log("The Value of age is: ", age);
 
+age = 30;
+
+console.log("The Value of age is: ", age);
+
+age = 40;
+
+console.log("The Value of age is: ", age);
+
 
 
 

@@ -22,7 +22,6 @@ const filteredItems = items.filter((item) => {
     return item.price <= 100;
 })
 
-//items that are less than or equal to 100$ will be in the new array filteredItems array
 console.log(filteredItems)
 
 
@@ -33,7 +32,7 @@ const mappedItems = items.map((item)=>{
     return item.name
 })
 
-console.log(mappedItems) //
+console.log(mappedItems)
 
 //3. Find method
 //find method takes a single callback function which has one parameter item, each item inside the array, this is just going to return thge very first item that it finds in the array that returns true for the statement that you pass inside of this find function.
@@ -70,7 +69,6 @@ console.log(hasInexpensiveItems)
 
 //6. Reduce method
 //reduce method is a bit different than other methods since it performs operations on an array and returns a combination of all those different operations, so if we want to get the total price of all the items in the array, normally this can be done via for loop in which we add each item everytime and at the end of the loop we print out the price. Here, it takes two parameters, an item and a property for what we want to reduce everything into, in our case it'll be the currentTotal
-
 
 const totalPrice = items.reduce((currentTotal, item)=>{
     return item.price + currentTotal;

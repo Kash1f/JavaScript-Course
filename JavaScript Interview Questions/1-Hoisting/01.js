@@ -1,8 +1,10 @@
 //1
 
-// console.log("Value of age is: ", age);
+x = 10;
 
-// var age = 40;
+console.log(`The value of x is: ${x}`);
+
+var x = 40;
 
 // console.log("Value of age is: ", age);
 
@@ -10,21 +12,21 @@
 
 //Trying to access a variable before it is declared and intialized is called TDZ
 
-age = 40;
+// age = 40;
 
-console.log("The Value of age is: ", age);
+// console.log("The Value of age is: ", age);
 
-let age = 20;
+// let age = 20;
 
-console.log("The Value of age is: ", age);
+// console.log("The Value of age is: ", age);
 
-age = 30;
+// age = 30;
 
-console.log("The Value of age is: ", age);
+// console.log("The Value of age is: ", age);
 
-age = 40;
+// age = 40;
 
-console.log("The Value of age is: ", age);
+// console.log("The Value of age is: ", age);
 
 
 

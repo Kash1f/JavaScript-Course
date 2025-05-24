@@ -1,10 +1,12 @@
 //1
 
-x = 10;
+x = 30;
 
-console.log(`The value of x is: ${x}`);
+console.log(`The value of x1 is: ${x}`);
 
-var x = 40;
+var x = 10;
+
+console.log(`The value of x2 is: ${x}`);
 
 // console.log("Value of age is: ", age);
 

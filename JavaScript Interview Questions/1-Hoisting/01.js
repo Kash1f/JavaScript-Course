@@ -1,37 +1,43 @@
 //1
 
+// x = 30;
+
+// console.log(`The value of x1 is: ${x}`);
+
+// var x = 10;
+
+// console.log(`The value of x2 is: ${x}`);
+
+// console.log("Value of age is: ", age);
+
+//2. Temporal deadzone
+
+//Trying to access a variable (let and const) before it is declared and intialized is called TDZ
+
 x = 30;
 
 console.log(`The value of x1 is: ${x}`);
 
-var x = 10;
+let x = 10;
 
 console.log(`The value of x2 is: ${x}`);
 
-// console.log("Value of age is: ", age);
+//TDZ in Block Scope
 
-//2. Temporal deadzone 
+{
+  console.log(a); // ❌ ReferenceError: a is in TDZ
+  let a = 5;       // TDZ ends here
+  console.log(a); // ✅ 5
+}
 
-//Trying to access a variable before it is declared and intialized is called TDZ
+//TDZ in Function Scope
 
-// age = 40;
-
-// console.log("The Value of age is: ", age);
-
-// let age = 20;
-
-// console.log("The Value of age is: ", age);
-
-// age = 30;
-
-// console.log("The Value of age is: ", age);
-
-// age = 40;
-
-// console.log("The Value of age is: ", age);
-
-
-
+function test() {
+  console.log(b); // ❌ ReferenceError: b is in TDZ
+  const b = 10;   // TDZ ends here
+  console.log(b); // ✅ 10
+}
+test();
 
 
 

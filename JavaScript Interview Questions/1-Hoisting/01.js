@@ -1,3 +1,4 @@
+
 //1
 
 // x = 30;
@@ -9,6 +10,7 @@
 // console.log(`The value of x2 is: ${x}`);
 
 // console.log("Value of age is: ", age);
+
 
 //2. Temporal deadzone
 

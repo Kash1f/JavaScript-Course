@@ -35,7 +35,7 @@ const mappedItems = items.map((item)=>{
 console.log(mappedItems)
 
 //3. Find method
-//find method takes a single callback function which has one parameter item, each item inside the array, this is just going to return thge very first item that it finds in the array that returns true for the statement that you pass inside of this find function.
+//find method takes a single callback function which has one parameter item, each item inside the array, this is just going to return the very first item that it finds in the array that returns true for the statement that you pass inside of this find function.
 
 const foundItem = items.find((item)=>{
     return item.price === 400
